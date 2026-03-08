@@ -1,3 +1,8 @@
+# PROJECT
+This repository analyzes the housing patterns and trends for New York city. We use the ‘New York City Airbnb Open Data | Airbnb listings and metrics in NYC, NY, USA (2019)’ dataset obtained from Kaggle. The Jupyter Notebook for the project along with environment setup instructions is hosted on this Github link. 
+
+## SCOPE
+This project involves creating a virtual environment for Jupyter Notebook to run, loading the data into our notebook and performing data analysis and visualization on it. The notebook also contains reports and metrics for the data. Ony data analysis is done, no ML training steps are added here. 
 
 # Setup
 ## Clone and navigate to the GIT repository
@@ -66,3 +71,6 @@ Once data is loaded, we do the following in the Jupyter Notebook
 3. Do EDA on the cleaned dataset
 4. Visualize the dataset using Matplotlib and Searbon libraries
 5. Give a final analysis of the dataset
+
+# Future Scope
+You can use the analysis from this repository for a future Machine Learning training project to predict listing prices. The cleaned up data is compliant with data safety rules as PII is removed. A continuous training and inference pipeline on the listings can help anyone get ahead of the trends and be able to understand the NYC housing market better. Further, AI agentic workflows can be enabled for listing agents, who can add LLM integrations which can help them generate reports and trends for their sales. 

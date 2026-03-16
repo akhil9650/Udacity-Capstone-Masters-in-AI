@@ -72,5 +72,12 @@ Once data is loaded, we do the following in the Jupyter Notebook
 4. Visualize the dataset using Matplotlib and Searbon libraries
 5. Give a final analysis of the dataset
 
+# Data Bias
+The given data is not exactly ready to be used for ML models training. During the analysis, it was observed that there is missing data in certain columns, and the visualizations clearly indicate outlier high prices for `private` and `entire home/apt` which can lead to an incorrect representation of the NYC property data. These issues and potential solutions are discussed in the Jupyter Notebook. 
+
 # Future Scope
 You can use the analysis from this repository for a future Machine Learning training project to predict listing prices. The cleaned up data is compliant with data safety rules as PII is removed. A continuous training and inference pipeline on the listings can help anyone get ahead of the trends and be able to understand the NYC housing market better. Further, AI agentic workflows can be enabled for listing agents, who can add LLM integrations which can help them generate reports and trends for their sales. 
+
+# GIT Usage Example
+[Main Code](https://github.com/akhil9650/Udacity-Capstone-Masters-in-AI/tree/main/AI%20Programming%20Foundations%20Project)
+[New commit branch](https://github.com/akhil9650/Udacity-Capstone-Masters-in-AI/tree/updates/AI%20Programming%20Foundations%20Project)
